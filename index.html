@@ -28,6 +28,13 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<style type="text/css">
+			.noBorder {
+    				background: rgba(0, 0, 0, 0) !important;
+    				border: 0 !important;
+    				box-shadow: 0 0 10px rgba(0, 0, 0, 0.0) !important;
+			}
+		</style>
 	</head>
 
 	<body>
