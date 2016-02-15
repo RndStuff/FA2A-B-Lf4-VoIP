@@ -5,6 +5,23 @@
 - Das entspricht 29,6 % aller Zugänge zur Sprachkommunikation
 - Wachstum von 45,1 % gegenüber Ende 2010
 
+## Geschichte
+
+### 1995
+ Erste Vorstellung einer Telefonie über das Internet Protocol (IP) durch die israelischen Firma VocalTec mit ihrer Software "Internet Phone", damals von PC-zu-PC im Halduplex-Betrieb.
+### 1996
+ Erste Norm für Multimedia-Kommunikation über paketorientierte Netze ohne Quality of Service (H.323)
+### 1997
+ Entwicklung von H.323-Gateways <br/> IP-Netz <-> öffentlichen Festnetz (PSTN)
+### 1999
+ Konkurrenz für H.323 Protokoll durch die Entwicklung des Session Initiation Protocols (SIP)
+### 2003
+ Testbetrieb von ENUM
+### 2004
+ SIP wird von allen deutschen VOIP-Diensten verwendet
+### 2018
+ Alle Telekom-Kunden sollen nur noch übers Internet telefonieren
+
 ## Merkmale
 VoIP-Telefone melden sich beim Server (zum Beispiel SIP-Server) an, daher kennt der Server die aktuelle IP-Adresse der Telefone.
 
@@ -36,6 +53,12 @@ IP Phone ----- Ethernet ----- Router ---- Internet ---- Router ---- Ethernet ---
 ## Vorteile:
 - Weniger Kosten
 - Leichtes erhöhen der Funktionalität
+- Gespräche können ortsunabhängig angenommen werden
+
+## Nachteile:
+- Die Sprachqualität erreicht nicht immer den gewohnten Standard des ISDN-Anschlusses.
+- Ausfallsicherheit. Bei einem Stormausfall wurden Telefone noch über die Telefonleitung mit Energie versorgt.
+- Da Gespräche ortsunabhängig sind können Notrufe nicht sofort zugeortnet werden
 
 ## VoIP Software
 - 3CX
