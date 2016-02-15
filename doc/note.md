@@ -1,9 +1,9 @@
 ## VOIP - Voice Over Internet Protocol
-*phone service over the Internet*
+IP-Telefonie (kurz für Internet-Protokoll-Telefonie), auch Internet-Telefonie oder Voice over IP (kurz VoIP) genannt, ist das Telefonieren über Computernetzwerke, welche nach Internet-Standards aufgebaut sind.
 
-2012 nutzten in Deutschland rund 11,1 Millionen Menschen
-- Das entspricht 29,6 % aller Zugänge zur Sprachkommunikation
-- Wachstum von 45,1 % gegenüber Ende 2010
+IP-Telefonie ist eine Technologie, die es ermöglicht, den Telefondienst auf IP-Infrastruktur zu realisieren, so dass diese die herkömmliche Telefontechnologie samt ISDN und allen Komponenten ersetzen kann. Zielsetzung dabei ist eine Reduzierung der Kosten durch ein einheitlich aufgebautes und zu betreibendes Netz.
+
+
 
 ## Geschichte
 
@@ -12,15 +12,28 @@
 ### 1996
  Erste Norm für Multimedia-Kommunikation über paketorientierte Netze ohne Quality of Service (H.323)
 ### 1997
- Entwicklung von H.323-Gateways <br/> IP-Netz <-> öffentlichen Festnetz (PSTN)
+ Entwicklung von H.323-Gateways  IP-Netz <-> öffentlichen Festnetz (PSTN)
 ### 1999
  Konkurrenz für H.323 Protokoll durch die Entwicklung des Session Initiation Protocols (SIP)
 ### 2003
  Testbetrieb von ENUM
 ### 2004
  SIP wird von allen deutschen VOIP-Diensten verwendet
+### 2012 
+ - rund 11,1 Millionen Menschen nutzten in Deutschland VOIP
+ - Das entspricht 29,6 % aller Zugänge zur Sprachkommunikation
+ - Wachstum von 45,1 % gegenüber Ende 2010
+
 ### 2018
  Alle Telekom-Kunden sollen nur noch übers Internet telefonieren
+
+## Session Initiation Protocol (SIP)
+Das Session Initiation Protocol ist ein Netzprotokoll zum Aufbau, zur Steuerung und zum Abbau einer Kommunikationssitzung zwischen zwei und mehr Teilnehmern. In der IP-Telefonie ist das SIP das standard Protokoll.
+
+SIP-Adressen werden im URI-Format geschrieben, welches auch bei HTTP und EMAIL Anwendung findet.
+- Unverschlüsselte SIP-Verbindung: sip:user@domain.
+- Verschlüsselte SIP-Verbindung: sips:user@domain.
+- Telefonnummer: tel:nummer, sip:nummer@domain.
 
 ## Merkmale
 VoIP-Telefone melden sich beim Server (zum Beispiel SIP-Server) an, daher kennt der Server die aktuelle IP-Adresse der Telefone.
