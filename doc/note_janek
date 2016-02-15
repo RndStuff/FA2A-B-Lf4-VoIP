@@ -1,23 +1,23 @@
-##VoIP Dienste
+## VoIP Dienste
 Mit den sogenannten VoIP- und Audi-Konferenz-Diensten lassen sich die Telefonkosten für Unternehmen meist deutlicht rezudieren. 
 Darüber hinaus bieten viele der Anbieter Audiokonferenz-Funktionen an.
 
 Bekannte Beispiele für solche Dienste sind:
 
-*Google Hangouts
+* Google Hangouts
 Mit Google Hangouts können Einzel sowie Gruppenkonversationen als auch Videokonferenzen geführt werden.
 Die Qualität ist sehr gut, solange man sich in einem stabilen Netz befindet. Video- und Telefonanrufe sind kostenlos und unbegrenzt.
 
-*skype
+* skype
 Skype bietet dem Nutzer die Möglichkeit Telefonate kostenlos von einem PC zum anderen zu führen.
 Darüber hinaus kann Skype auch mobile genutzt werden. Wenn gewünscht kann Skype Anrufe direkt auf das Handy weiterleiten.
 Außerdem kann eine Online-Nummer eingerichtet werden über die man sogar per Festnetz bei Skype erreichbar ist.
 
-*Sipgate
+* Sipgate
 Wird häufig in Firmen eingesetzt und bietet umfangreiche Features zum führen von Telefonaten.
 Außerdem können kostenpflichtige Dienste wie eine Service-Hotline oder eine Kommunikationszentrale angebunden werden.
 
-##Wie funktioniert das?
+## Wie funktioniert das?
 
 Bei der IP-Telefonie wird die Sprache in Datenpakete aufgeteilt, die dann durch das Netzwerk (lokal oder Internet) geschickt werden.
 
@@ -37,13 +37,13 @@ Mit einem VoIP-fähigem Gerät (PC-Programm, IP-Telefon oder ISDN-Adapter) kann 
 
 Die Technik von VoIP ist jeweils abhängig von der verwendung der Geräte.
 
-###IP zu Festnetz und Festnetz zu IP
+### IP zu Festnetz und Festnetz zu IP
 In diesem Fall wird immer ein Gateway benötigt. Dieses vermittelt zwischen IP-Netz und Festnetz.
 
-###Festnetz zu Festnetz
+### Festnetz zu Festnetz
 In dem Szenario befindet sich ein IP-Netzwerk zwischen zwei Festnetzen, so dass an beiden Enden Festnetz-Endgeräte verwerndet werden. An jeder Grenze zwischen Fest- und IP-Netz wird jeweils ein Gateway benötigt.
 
-###IP zu IP
+### IP zu IP
 Diese Gespräche brauchen keinen Gateway, weil keine Umsetzung zwischen VoIP und Festnetz notwenig ist.
 
 ### ENUM
@@ -61,7 +61,7 @@ Der entsprechende ENUM-Eintrag ist rückwärts notiert unter der Domain
 "7.6.5.4.3.2.1.0.4.9.4.e164.arpa"
 zu finden.
 
-##IP Phone
+## IP Phone
 Bei einem IP Telefon werden die Telefonate über das Internet oder ein lokales Netzwerk (LAN) übertragen.
 Benutzer von einem IP Telefon müssen ihr Gerät nur mit dem nächsten LAN verbinden, dann registriert sich das Telefon automatisch bei dem verwendeten VoIP System. Das Telefon behält immer die gleich Nummer, egal wo es verbunden wird.
 
